@@ -1,7 +1,7 @@
 const grid = require("gridfs-stream");
 const mongoose = require("mongoose");
 
-const url = process.env.PORT || "http://localhost:5000";
+const url = "https://blogapp-api-by-abhisek.herokuapp.com";
 
 let gfs;
 const conn = mongoose.connection;
